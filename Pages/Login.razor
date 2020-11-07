@@ -1,0 +1,52 @@
+@page "/login"
+@using BlazorApp.Data
+@inject LoginService lo
+
+<h1>@change</h1>
+<p>hello </p>
+
+@if (@change==1)
+{
+    <p>Welcome member @member.Name~~</p>
+    <p> You have @member.Order </p>
+    <button @onclick="logout">Logout </button>
+}
+else{
+    <label for="fname">Account:</label>
+    <input type="text" @bind="@account" id="account" name="account"><br><br>
+    <label for="lname">Password:</label>
+    <input type="text" @bind="@password" id="password" name="password"><br><br>
+    <button class="btn btn-primary" @onclick="login">Click me</button>
+}
+
+
+
+
+@code {
+    private string account;
+    private string password;
+
+    private string name;
+    private string order;
+    private int hello = 0;
+    private int change { get; set; } = 1;
+
+    private MemberData member;
+
+    async Task login()
+    {
+        @* change = "login successful!!!"; *@
+        hello++;
+        lo.setlogin(1);
+        change= lo.getlogin();
+        this.member = await lo.GetMemberInfo();
+    }
+    protected override async Task OnInitializedAsync()
+    {
+        this.change = await lo.GetLoginAsync();
+    }
+    void logout(){
+        lo.setlogin(0);
+        change= lo.getlogin();
+    }
+}
