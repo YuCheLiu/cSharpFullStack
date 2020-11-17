@@ -1,9 +1,10 @@
 @page "/login"
 @using BlazorApp.Data
 @inject LoginService lo
+@inject SqliteService db
 
 <h1>@change</h1>
-<p>hello </p>
+<p>hello @db.connectDB()</p>
 
 @if (@change==1)
 {
@@ -26,24 +27,24 @@ else{
     private string account;
     private string password;
 
-    private string name;
-    private string order;
-    private int hello = 0;
     private int change { get; set; } = 1;
 
     private MemberData member;
 
+    
     async Task login()
     {
         @* change = "login successful!!!"; *@
-        hello++;
         lo.setlogin(1);
         change= lo.getlogin();
-        this.member = await lo.GetMemberInfo();
+        this.member = await db.querymember();
     }
+    
     protected override async Task OnInitializedAsync()
     {
-        this.change = await lo.GetLoginAsync();
+        db.connectDB();
+        db.createNewMember();
+        this.change = await lo.GetLoginAsync();        
     }
     void logout(){
         lo.setlogin(0);

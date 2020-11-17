@@ -29,6 +29,7 @@ namespace BlazorApp
             services.AddServerSideBlazor();
             services.AddSingleton<WeatherForecastService>();
             services.AddSingleton<LoginService>();
+            services.AddSingleton<SqliteService>();
 
         }
 

@@ -47,3 +47,9 @@ K:\full-structure\BlazorApp\obj\Debug\netcoreapp3.1\BlazorApp.pdb
 K:\full-structure\BlazorApp\obj\Debug\netcoreapp3.1\BlazorApp.csproj.CopyComplete
 K:\full-structure\BlazorApp\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Login.razor.g.cs
 K:\full-structure\BlazorApp\obj\Debug\netcoreapp3.1\Razor\Pages\Login.razor.g.cs
+K:\full-structure\BlazorApp\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+K:\full-structure\BlazorApp\bin\Debug\netcoreapp3.1\System.Data.SQLite.dll
+K:\full-structure\BlazorApp\bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\SQLite.Interop.dll
+K:\full-structure\BlazorApp\bin\Debug\netcoreapp3.1\runtimes\osx-x64\native\SQLite.Interop.dll
+K:\full-structure\BlazorApp\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\SQLite.Interop.dll
+K:\full-structure\BlazorApp\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\SQLite.Interop.dll

@@ -1,5 +1,4 @@
 ﻿@using BlazorApp.Data
-@inject LoginService login
 
 <div class="top-row pl-4 navbar navbar-dark">
     <a class="navbar-brand" href="">BlazorApp</a>
@@ -39,18 +38,10 @@
 
 @code {
     private bool collapseNavMenu = true;
-    private int loginst =0;
-
     private string NavMenuCssClass => collapseNavMenu ? "collapse" : null;
 
     private void ToggleNavMenu()
     {
         collapseNavMenu = !collapseNavMenu;
     }
-
-    protected override async Task OnInitializedAsync()
-    {
-        this.loginst = await login.GetLoginAsync();
-    }
-
 }
