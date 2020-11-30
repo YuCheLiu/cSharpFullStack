@@ -12,35 +12,68 @@
   "ProjectWorkspaceState": {
     "TagHelpers": [
       {
-        "HashCode": -1367510939,
+        "HashCode": 111003046,
         "Kind": "Components.Component",
-        "Name": "BlazorApp.Pages.FetchData",
+        "Name": "BlazorApp.App",
         "AssemblyName": "BlazorApp",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "FetchData"
+            "TagName": "App"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorApp.Pages.FetchData"
+          "Common.TypeName": "BlazorApp.App"
         }
       },
       {
-        "HashCode": 1934245711,
+        "HashCode": -886182217,
         "Kind": "Components.Component",
-        "Name": "BlazorApp.Pages.FetchData",
+        "Name": "BlazorApp.App",
         "AssemblyName": "BlazorApp",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "BlazorApp.Pages.FetchData"
+            "TagName": "BlazorApp.App"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorApp.Pages.FetchData",
+          "Common.TypeName": "BlazorApp.App",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -1176967935,
+        "Kind": "Components.Component",
+        "Name": "BlazorApp.Pages.Counter",
+        "AssemblyName": "BlazorApp",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Counter"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazorApp.Pages.Counter"
+        }
+      },
+      {
+        "HashCode": -705743298,
+        "Kind": "Components.Component",
+        "Name": "BlazorApp.Pages.Counter",
+        "AssemblyName": "BlazorApp",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "BlazorApp.Pages.Counter"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazorApp.Pages.Counter",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -78,35 +111,35 @@
         }
       },
       {
-        "HashCode": -1176967935,
+        "HashCode": -1367510939,
         "Kind": "Components.Component",
-        "Name": "BlazorApp.Pages.Counter",
+        "Name": "BlazorApp.Pages.FetchData",
         "AssemblyName": "BlazorApp",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "Counter"
+            "TagName": "FetchData"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorApp.Pages.Counter"
+          "Common.TypeName": "BlazorApp.Pages.FetchData"
         }
       },
       {
-        "HashCode": -705743298,
+        "HashCode": 1934245711,
         "Kind": "Components.Component",
-        "Name": "BlazorApp.Pages.Counter",
+        "Name": "BlazorApp.Pages.FetchData",
         "AssemblyName": "BlazorApp",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "BlazorApp.Pages.Counter"
+            "TagName": "BlazorApp.Pages.FetchData"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorApp.Pages.Counter",
+          "Common.TypeName": "BlazorApp.Pages.FetchData",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -173,39 +206,6 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "BlazorApp.Pages.Login",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 111003046,
-        "Kind": "Components.Component",
-        "Name": "BlazorApp.App",
-        "AssemblyName": "BlazorApp",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "App"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorApp.App"
-        }
-      },
-      {
-        "HashCode": -886182217,
-        "Kind": "Components.Component",
-        "Name": "BlazorApp.App",
-        "AssemblyName": "BlazorApp",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "BlazorApp.App"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorApp.App",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },

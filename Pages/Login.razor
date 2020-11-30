@@ -42,9 +42,8 @@ else{
     
     protected override async Task OnInitializedAsync()
     {
-    
         db.connectDB();
-        db.createDB();
+        db.createTables();
         db.createNewMember();
         this.change = await lo.GetLoginAsync();        
     }
